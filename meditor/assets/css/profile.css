@@ -1,0 +1,104 @@
+#navbar {
+  overflow: hidden;
+  background-color: #06337b;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.content {
+  padding: 16px;
+}
+
+#navbar btn {
+  float: right;
+  margin-top: 18px;
+  margin-right: 10px;
+  color: black;
+  background-color: #f7d217;
+}
+
+.btn-icon {
+  float: right;
+  background-color: #f7d217;
+  border: none;
+  color: black;
+  padding: 8px 12px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.search-form {
+  margin-top: 20px;
+  width: 50%;
+  height: 30px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border-radius: 5px;
+}
+
+.btn-icon:hover {
+  background-color: #ccae1b;
+}
+
+.logo-homepage {
+  float: left;
+  width: 13%;
+}
+
+body {
+  background: #031736;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #BA68C8
+}
+
+.profile-button {
+  background: #f7d217;
+  box-shadow: none;
+  border: none;
+  color: black;
+}
+
+.profile-button:hover {
+  background: #06337b;
+}
+
+.profile-button:focus {
+  background: #06337b;
+  box-shadow: none
+}
+
+.profile-button:active {
+  background: #06337b;
+  box-shadow: none
+}
+
+.back:hover {
+  color: #06337b;
+  cursor: pointer
+}
+
+.labels {
+  font-size: 11px
+}
+
+.add-experience:hover {
+  background: #BA68C8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #BA68C8
+}
